@@ -1,0 +1,71 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Juster alle kolonner øverst */
+  padding: 20px;
+  background-color: #3c3c3c;
+  height: 400px; /* Indstil en fast højde til footeren */
+  color: white;
+}
+
+.footerColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center; /* Sørger for lodret start */
+}
+
+.footerMiddle {
+  flex: 2;
+  justify-content: center; /* Centrerer indholdet i midten lodret */
+  margin-top: 3rem;
+}
+
+.footerRight {
+  flex: 1;
+  margin-top: -2.5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* Holder ikon og tekst på samme linje */
+  align-items: center; /* Vertikal justering */
+  justify-content: center; /* Horisontal justering */
+  margin: 10px 0;
+  width: 100%; /* Sikrer samme bredde for alle rækker */
+}
+
+.icon {
+  margin-right: 10px; /* Afstand mellem ikon og tekst */
+  width: 60px; /* Garanter samme størrelse på alle ikoner */
+  height: 60px;
+}
+
+.iconWrapper {
+  margin-left: -1.3rem; /* Ryk ikonet lidt til venstre */
+}
+
+.separator {
+  width: 15rem;
+  border: 1px solid #e0a619;
+}
+
+.socialIcon {
+  margin: 0 10px;
+  width: 60px; /* Justér størrelsen */
+  height: 60px;
+  cursor: pointer; /* Gør ikoner klikbare */
+}
+
+.socialIcon:hover {
+  transform: scale(1.1); /* Lidt animation ved hover */
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer_copyright p {
+  font-size: 10px;
+  position: relative;
+  margin-top: 2rem;
+}

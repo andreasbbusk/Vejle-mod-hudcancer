@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Projects from "./pages/Project/Projects";
 import Project2025 from "./pages/Project/Project2025";
+import Gallamiddag from "./pages/Events/Gallamiddag";
 
 const App = () => {
   return (
@@ -33,8 +34,8 @@ const App = () => {
             element={<div>Projekt 2017</div>}
           />
           <Route
-            path="/Events/Gallamiddag-2025"
-            element={<div>Gallamiddag 2025</div>}
+            path="/Events/Gallamiddag"
+            element={<Gallamiddag />}
           />
           <Route
             path="/Events/Torveevent-2025"
